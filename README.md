@@ -26,15 +26,16 @@ HackerRank is a competitive programming platform that allows developers to pract
 
 ## Repository Content
 This repository includes solutions to various Python problems from HackerRank, organized by topic:
-
-1. [Say "Hello, World!" With Python](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/1%20-%20Say%20%22Hello%2C%20World%21%22%20With%20Python)
-2. [Python If-Else](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/2%20-%20Python%20If-Else)
-3. [Arithmetic Operators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/3%20-%20Arithmetic%20Operators)
-4. [Python Division](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/4%20-%20Python%20Division)
-5. [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops)
-6. [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function)
-7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function)
-8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions)
+| Problem Name |
+|---|
+| 1. [Say "Hello, World!" With Python](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/1%20-%20Say%20%22Hello%2C%20World%21%22%20With%20Python) 
+| 2. [Python If-Else](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/2%20-%20Python%20If-Else) 
+| 3. [Arithmetic Operators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/3%20-%20Arithmetic%20Operators) 
+| 4. [Python Division](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/4%20-%20Python%20Division) 
+| 5. [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops) 
+| 6. [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function) 
+| 7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) 
+| 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions) 
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
