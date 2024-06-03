@@ -59,6 +59,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 Happy Coding!
 
-<p align="center">
-    <img width="80px" src="https://cdn.iconscout.com/icon/free/png-512/free-hackerrank-3521478-2944922.png?f=webp&w=256">
-</p>
+
