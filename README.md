@@ -27,7 +27,7 @@ HackerRank is a competitive programming platform that allows developers to pract
 ## Repository Content
 This repository includes solutions to various Python problems from HackerRank, organized by topic:
 
-1. [Say "Hello, World!" With Python](01-say-hello-world-with-python/README.md)
+1. [Say "Hello, World!" With Python](1 - Say "Hello, World!" With Python/README.md)
 2. [Python If-Else](solutions/02-python-if-else.md)
 3. [Arithmetic Operators](solutions/03-arithmetic-operators.md)
 4. [Python Division](solutions/04-python-division.md)
