@@ -35,7 +35,8 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 5. [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops) 
 | 6. [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function) 
 | 7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) 
-| 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions) 
+| 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions)
+| 9. [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score)
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
