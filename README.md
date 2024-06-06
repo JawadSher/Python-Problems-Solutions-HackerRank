@@ -37,6 +37,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) 
 | 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions)
 | 9. [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score)
+| 10. [Nested Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Nested%20Lists)
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
