@@ -3,10 +3,16 @@
     - P Y T H O N - P R O B L E M S
 </h1>
 
-<p align="center">
-    <img src="https://img.shields.io/github/last-commit/JawadSher/Python_Problems-HackerRank?style=flat-square">
-    <img src="https://img.shields.io/github/languages/count/JawadSher/Python_Problems-HackerRank?style=flat-square">
-</p>
+<div align="center">
+    <img src="https://img.shields.io/badge/Problems%20Solved-11-brightgreen?style=flat-square">
+    <img src="https://img.shields.io/github/contributors/JawadSher/Python_Problems-HackerRank?style=flat-square">
+    <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat-square">
+    <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat-square">
+    <img src="https://img.shields.io/github/stars/JawadSher/Python_Problems-HackerRank?style=flat-square">
+    <img src="https://komarev.com/ghpvc/?username=JawadSher&label=Views&color=blueviolet&style=flat-square">
+    <img src="https://img.shields.io/github/forks/JawadSher/Python_Problems-HackerRank?style=flat-square">
+</div>
+
 
 ## Introduction
 Welcome to the **Python Problems - HackerRank** repository! This repository contains solutions to various Python programming problems found on the [HackerRank](https://www.hackerrank.com/) platform. Whether you're a beginner or an experienced programmer, you'll find these problems and solutions helpful for honing your Python skills.
