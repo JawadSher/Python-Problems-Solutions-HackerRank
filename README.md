@@ -39,7 +39,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions) | Utilizing list comprehensions to create lists in Python. |
 | 9. [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score) | Finding the second highest score from a list of scores. |
 | 10. [Nested Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Nested%20Lists) | Working with nested lists and retrieving specific information from them. |
-| 11. [Finding the Percentage](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Finding%20the%20Percentage) | Calculating and printing the average percentage of marks for a given student. |
+| 11. [Finding the Percentage](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/11%20-%20Finding%20the%20Percentage) | Calculating and printing the average percentage of marks for a given student. |
 
 
 
