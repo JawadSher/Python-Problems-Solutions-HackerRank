@@ -26,18 +26,22 @@ HackerRank is a competitive programming platform that allows developers to pract
 
 ## Repository Content
 This repository includes solutions to various Python problems from HackerRank, organized by topic:
-| Problem Name |
-|---|
-| 1. [Say "Hello, World!" With Python](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/1%20-%20Say%20%22Hello%2C%20World%21%22%20With%20Python) 
-| 2. [Python If-Else](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/2%20-%20Python%20If-Else) 
-| 3. [Arithmetic Operators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/3%20-%20Arithmetic%20Operators) 
-| 4. [Python Division](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/4%20-%20Python%20Division) 
-| 5. [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops) 
-| 6. [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function) 
-| 7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) 
-| 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions)
-| 9. [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score)
-| 10. [Nested Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Nested%20Lists)
+
+| Problem Name | Description |
+|---|---|
+| 1. [Say "Hello, World!" With Python](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/1%20-%20Say%20%22Hello%2C%20World%21%22%20With%20Python) | Printing the "Hello, World!" string with Python. |
+| 2. [Python If-Else](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/2%20-%20Python%20If-Else) | Solving conditional problems using if-else statements in Python. |
+| 3. [Arithmetic Operators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/3%20-%20Arithmetic%20Operators) | Performing basic arithmetic operations in Python. |
+| 4. [Python Division](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/4%20-%20Python%20Division) | Understanding integer division and float division in Python. |
+| 5. [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops) | Using loops to solve repetitive tasks in Python. |
+| 6. [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function) | Implementing functions to solve various problems in Python. |
+| 7. [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) | Printing consecutive integers without using loops in Python. |
+| 8. [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions) | Utilizing list comprehensions to create lists in Python. |
+| 9. [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score) | Finding the second highest score from a list of scores. |
+| 10. [Nested Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Nested%20Lists) | Working with nested lists and retrieving specific information from them. |
+| 11. [Finding the Percentage](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Finding%20the%20Percentage) | Calculating and printing the average percentage of marks for a given student. |
+
+
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
