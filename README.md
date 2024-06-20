@@ -48,6 +48,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 11. [Finding the Percentage](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/11%20-%20Finding%20the%20Percentage) | Calculating and printing the average percentage of marks for a given student. |
 | 12. [Python Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/12%20-%20Python%20%20Lists) | Perform various list operations (insert, print, remove, append, sort, pop, reverse) and output the list after each modification. |
 | 13. [Python Tuples](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/13%20-%20Python%20Tuples) | Calculate the hash of the tuple. |
+| 14. [sWAP cASE](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/14%20-%20sWAP%20cASE) | Converting the lower Strings to upper and vice versa. |
 
 
 
