@@ -52,6 +52,9 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 15. [String Split and Join](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/15%20-%20String%20Split%20and%20Join) | Split the line with space and joining with "-" hypen. |
 | 16. [What's Your Name](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/16%20-%20What's%20Your%20Name) | How to Concatenate multiple Strings to display in one line. |
 | 17. [Mutations](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/17%20-%20Mutations) | Replace a character to a specfic index in string. Note String in Immutable. |
+| 18. [Find a String](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/18%20-%20Find%20a%20String) | Return the number of occurrences of a substring in a given string. |
+| 19. [String Validators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/19%20-%20String%20Validators) | Check and return boolean values if the given string contains numbers, uppercase, lowercase characters, etc. |
+| 20. [Text Alignment](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/20%20-%20Text%20Alignment) | Fill in the blanks in the given code to return the HackerRank logo with proper alignment. |
 
 
 
