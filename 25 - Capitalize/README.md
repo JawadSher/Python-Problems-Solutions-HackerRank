@@ -1,5 +1,5 @@
 # Problem Statement
-[Capitalize](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)
+**URL** : [Capitalize](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/855c80dd-07d7-41ee-84ff-e255c8ba0fc7)
 
