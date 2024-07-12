@@ -55,6 +55,11 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 18. [Find a String](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/18%20-%20Find%20a%20String) | Return the number of occurrences of a substring in a given string. |
 | 19. [String Validators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/19%20-%20String%20Validators) | Check and return boolean values if the given string contains numbers, uppercase, lowercase characters, etc. |
 | 20. [Text Alignment](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/20%20-%20Text%20Alignment) | Fill in the blanks in the given code to return the HackerRank logo with proper alignment. |
+| 21. [Text Wrap](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/21%20-%20Text%20Wrap) | Wrap text to fit a width, breaking on whole words.
+| 22. [Designer Door Mat](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/22%20-%20Designer%20Door%20Mat) | Create a centered welcome message on an asterisk mat.
+| 23. [String Formating](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/23%20-%20String%20Formating) | Format user info (name, age, address) in a readable way.
+| 24. [Alphabet Rangoli](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/24%20-%20Alphabet%20Rangoli) | Generate a diamond-shaped pattern using letters.
+| 25. [Capitalize](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/25%20-%20Capitalize) | Capitalize the first letter of each word in a string.
 
 
 
