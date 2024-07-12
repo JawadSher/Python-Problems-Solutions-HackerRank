@@ -60,6 +60,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 23. [String Formating](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/23%20-%20String%20Formating) | Format user info (name, age, address) in a readable way.
 | 24. [Alphabet Rangoli](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/24%20-%20Alphabet%20Rangoli) | Generate a diamond-shaped pattern using letters.
 | 25. [Capitalize](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/25%20-%20Capitalize) | Capitalize the first letter of each word in a string.
+| 26. [The Minion Game](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/26%20-%20The%20Minion%20Game) | A competitive word game where players score points based on substrings starting with vowels or consonants.
 
 
 
