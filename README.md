@@ -61,6 +61,10 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 24. [Alphabet Rangoli](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/24%20-%20Alphabet%20Rangoli) | Generate a diamond-shaped pattern using letters.
 | 25. [Capitalize](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/25%20-%20Capitalize) | Capitalize the first letter of each word in a string.
 | 26. [The Minion Game](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/26%20-%20The%20Minion%20Game) | A competitive word game where players score points based on substrings starting with vowels or consonants.
+| 27. [The Merge Tools](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/27%20-%20Merge%20The%20Tools) | Merges string parts ensuring unique characters in each substring.
+| 28. [Itertools.Product()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/28%20-%20Itertools%20Product()) | Computes the Cartesian product of iterables.
+| 29. [Itertools.Permutations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/29%20-%20Itertools%20Permutations()) | Generates all permutations of elements from an iterable.
+| 30. [Itertools.Combinations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/30%20-%20Itertools%20Combinations()) | Creates all combinations of elements from an iterable.
 
 
 
