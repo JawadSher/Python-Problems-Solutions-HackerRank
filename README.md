@@ -4,13 +4,15 @@
 </h1>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Problems%20Solved-11-brightgreen?style=flat-square">
-    <img src="https://img.shields.io/github/contributors/JawadSher/Python_Problems-HackerRank?style=flat-square">
-    <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat-square">
-    <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat-square">
-    <img src="https://img.shields.io/github/stars/JawadSher/Python_Problems-HackerRank?style=flat-square">
-    <img src="https://komarev.com/ghpvc/?username=JawadSher&label=Views&color=blueviolet&style=flat-square">
-    <img src="https://img.shields.io/github/forks/JawadSher/Python_Problems-HackerRank?style=flat-square">
+    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-30-blue?style=flat&logo=python&logoColor=green" alt="Total Problems Solved">
+    <img src="https://img.shields.io/github/contributors/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Repo Size">
+    <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat&logo=opensource" alt="License">
+    <img src="https://img.shields.io/github/stars/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Stars">
+    <img src="https://komarev.com/ghpvc/?username=JawadSher&label=Views&color=blueviolet&style=flat" alt="Views">
+    <img src="https://img.shields.io/github/forks/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Forks">
+    <img src="https://img.shields.io/badge/Last%20Update-July%20%272024-blue?style=flat&logo=calendar" alt="Last Update">
+    <img src="https://img.shields.io/github/issues/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Issues">
 </div>
 
 
