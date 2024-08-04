@@ -35,42 +35,16 @@ HackerRank is a competitive programming platform that allows developers to pract
 ## Repository Content
 This repository includes solutions to various Python problems from HackerRank, organized by topic:
 
-| No | Problem Name | Description |
+| No | Problems Category | Description |
 |---|---|---|
-| 1 | [Say "Hello, World!" With Python](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/1%20-%20Say%20%22Hello%2C%20World%21%22%20With%20Python) | Printing the "Hello, World!" string with Python. |
-| 2 | [Python If-Else](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/2%20-%20Python%20If-Else) | Solving conditional problems using if-else statements in Python. |
-| 3 | [Arithmetic Operators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/3%20-%20Arithmetic%20Operators) | Performing basic arithmetic operations in Python. |
-| 4 | [Python Division](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/4%20-%20Python%20Division) | Understanding integer division and float division in Python. |
-| 5 | [Loops](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/5%20-%20Loops) | Using loops to solve repetitive tasks in Python. |
-| 6 | [Write a Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/6%20-%20Write%20a%20Function) | Implementing functions to solve various problems in Python. |
-| 7 | [Print Function](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/7%20-%20Print%20Function) | Printing consecutive integers without using loops in Python. |
-| 8 | [List Comprehensions](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/8%20-%20List%20Comprehensions) | Utilizing list comprehensions to create lists in Python. |
-| 9 | [Find the Runner-Up Score](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/9%20-%20Find%20the%20Runner-Up%20Score) | Finding the second highest score from a list of scores. |
-| 10 | [Nested Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/10%20-%20Nested%20Lists) | Working with nested lists and retrieving specific information from them. |
-| 11 | [Finding the Percentage](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/11%20-%20Finding%20the%20Percentage) | Calculating and printing the average percentage of marks for a given student. |
-| 12 | [Python Lists](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/12%20-%20Python%20%20Lists) | Perform various list operations (insert, print, remove, append, sort, pop, reverse) and output the list after each modification. |
-| 13 | [Python Tuples](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/13%20-%20Python%20Tuples) | Calculate the hash of the tuple. |
-| 14 | [sWAP cASE](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/14%20-%20sWAP%20cASE) | Converting the lower Strings to upper and vice versa. |
-| 15 | [String Split and Join](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/15%20-%20String%20Split%20and%20Join) | Split the line with space and joining with "-" hypen. |
-| 16 | [What's Your Name](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/16%20-%20What's%20Your%20Name) | How to Concatenate multiple Strings to display in one line. |
-| 17 | [Mutations](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/17%20-%20Mutations) | Replace a character to a specfic index in string. Note String in Immutable. |
-| 18 | [Find a String](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/18%20-%20Find%20a%20String) | Return the number of occurrences of a substring in a given string. |
-| 19 | [String Validators](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/19%20-%20String%20Validators) | Check and return boolean values if the given string contains numbers, uppercase, lowercase characters, etc. |
-| 20 | [Text Alignment](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/20%20-%20Text%20Alignment) | Fill in the blanks in the given code to return the HackerRank logo with proper alignment. |
-| 21 | [Text Wrap](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/21%20-%20Text%20Wrap) | Wrap text to fit a width, breaking on whole words.
-| 22 | [Designer Door Mat](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/22%20-%20Designer%20Door%20Mat) | Create a centered welcome message on an asterisk mat.
-| 23 | [String Formating](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/23%20-%20String%20Formating) | Format user info (name, age, address) in a readable way.
-| 24 | [Alphabet Rangoli](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/24%20-%20Alphabet%20Rangoli) | Generate a diamond-shaped pattern using letters.
-| 25 | [Capitalize](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/25%20-%20Capitalize) | Capitalize the first letter of each word in a string.
-| 26 | [The Minion Game](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/26%20-%20The%20Minion%20Game) | A competitive word game where players score points based on substrings starting with vowels or consonants.
-| 27 | [The Merge Tools](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/27%20-%20Merge%20The%20Tools) | Merges string parts ensuring unique characters in each substring.
-| 28 | [Itertools.Product()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/28%20-%20Itertools%20Product()) | Computes the Cartesian product of iterables.
-| 29 | [Itertools.Permutations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/29%20-%20Itertools%20Permutations()) | Generates all permutations of elements from an iterable.
-| 30 | [Itertools.Combinations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/30%20-%20Itertools%20Combinations()) | Creates all combinations of elements from an iterable.
-| 31 | [Collections.Counter()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Collections%20Counter()) | Using collections.Counter to count occurrences of elements in a collection.
-| 32 | [Polar Coordinates](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Polar%20Coordinates) | Converts polar coordinates to Cartesian coordinates.
-| 33 | [Find Angle MBC](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Find%20Angle%20MBC) | Calculates the angle ∠MBC in a right-angled triangle.
-| 34 | [Mod Divmod](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Mod%20Divmod) | Uses mod and divmod operations to compute quotient and remainder.
+| 01 | [Introductory Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/01%20-%20Introductory%20Problems) |Contains basic problems that introduce fundamental concepts and syntax of Python. |
+| 02 | [Basic Data Types Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/02%20-%20Basic%20Data%20Types%20Problems) |Covers problems related to basic data types, such as lists, tuples, and dictionaries.|
+| 03 | [Strings Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/03%20-%20Strings%20Problems) |Includes problems focused on manipulating and analyzing strings in Python.|
+| 04 | [Sets Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/04%20-%20Sets%20Problems) |Features problems that involve set operations and concepts in Python.|
+| 05 | [Math Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems) |Contains problems that require mathematical computations and algorithms.|
+| 06 | [Itertools Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems) |Focuses on problems that utilize the itertools module for advanced iteration techniques.|
+| 07 | [Collections Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/07%20-%20Collections%20Problems) |Includes problems that involve Python's collections module, such as namedtuples, deque, and Counter.|
+
 
 
 
