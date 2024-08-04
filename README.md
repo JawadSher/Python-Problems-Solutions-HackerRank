@@ -68,6 +68,9 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 29 | [Itertools.Permutations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/29%20-%20Itertools%20Permutations()) | Generates all permutations of elements from an iterable.
 | 30 | [Itertools.Combinations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/30%20-%20Itertools%20Combinations()) | Creates all combinations of elements from an iterable.
 | 31 | [Collections.Counter()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Collections%20Counter()) | Using collections.Counter to count occurrences of elements in a collection.
+| 32 | [Polar Coordinates](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Polar%20Coordinates) | Converts polar coordinates to Cartesian coordinates.
+| 33 | [Find Angle MBC](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Find%20Angle%20MBC) | Calculates the angle ∠MBC in a right-angled triangle.
+| 34 | [Mod Divmod](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/Mod%20Divmod) | Uses mod and divmod operations to compute quotient and remainder.
 
 
 
