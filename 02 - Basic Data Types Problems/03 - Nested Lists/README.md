@@ -1,10 +1,12 @@
-# Problem Statement
-**URL : [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true)**
+<h1 align='center'>Nested - Lists</h1>
+
+## Problem Statement
+**Problem URL : [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/0bb4e2fe-788a-418d-9498-7664fb130c10)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/b1cb4d2c-c9c5-49e5-9b2a-b89ade9238bb)
 
-# Problem Explanation
+## Problem Explanation
 
 Given the names and grades for each student in a class of `N` students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
 **Input Format**:
@@ -34,7 +36,7 @@ Given the names and grades for each student in a class of `N` students, store th
 
 **Output** : Berry Harry
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     students = []
@@ -59,49 +61,88 @@ if __name__ == '__main__':
         print(names)
 ```
 
-## Code Explanation 
-- **Initialization**
-  
-  ```students = []``` : An empty list is initialized to store the names and scores of students.
+## Problem Solution Explanation 
 
-- **Input Reading**
-  
-  ```for _ in range(int(input())):``` : A loop runs for the number of students entered by the user.
-  
-  ```name = input():``` : Reads the student's name.
-  
-  ```score = float(input()):``` : Reads the student's score and converts it to a float.
-  
-  ```students.append((name, score)):``` : Appends a tuple of the student's name and score to the students list.
-  
-- **Sorting**
-  
-  ```students_sorted = sorted(students, key=lambda x: (x[1], x[0])):``` : Sorts the students list first by score (x[1]) and then by name (x[0]) in ascending order.
-  
-- **Finding the Lowest and Second Lowest Scores**
-  
-  ```lowestGrade = students_sorted[0][1]:``` : Assigns the lowest score from the sorted list.
-  
-  ```secLowestGrade = None``` : Initializes secLowestGrade to None.
-  
-  ```for student in students_sorted:``` : Iterates through the sorted student list to find the second lowest score.
-  
-  ```if student[1] > lowestGrade:``` : Checks if the current student's score is greater than the lowest score.
-  
-  ```secLowestGrade = student[1]``` : If true, assigns this score to secLowestGrade.
-  
-  ```break``` : Exits the loop once the second lowest score is found.
-  
-- **Collecting Student Names with Second Lowest Score**
-  
-  ```studentNames = [student[0] for student in students_sorted if secLowestGrade == student[1]]``` : Creates a list of student names who have the second lowest score.
-  
-- **Sorting and Printing Names**
-  
-  ```studentNames.sort()``` : Sorts the names alphabetically.
-  
-  ```for names in studentNames:``` : Iterates through the sorted names list.
-  
-  ```print(names)``` : Prints each name on a new line.
+```python
+if __name__ == '__main__':
+```
+- This line checks if the script is being run directly (as opposed to being imported as a module). If it is run directly, the code block following this line will be executed.
+
+```python
+    students = []
+```
+- Initializes an empty list `students` to store tuples of student names and their scores.
+
+```python
+    for _ in range(int(input())):
+```
+- This line starts a `for` loop that will iterate a number of times equal to the integer input provided by the user. Each iteration processes one student’s data.
+
+```python
+        name = input()
+```
+- Reads a string input from the user representing the student's name and stores it in the variable `name`.
+
+```python
+        score = float(input())
+```
+- Reads a numeric input from the user, converts it to a floating-point number using `float()`, and stores it in the variable `score`.
+
+```python
+        students.append((name, score))
+```
+- Appends a tuple `(name, score)` to the `students` list, storing the student's name and score together.
+
+```python
+    students_sorted = sorted(students, key=lambda x: (x[1], x[0]))
+```
+- Sorts the `students` list. The `sorted()` function is used with a `lambda` function as the `key` parameter:
+  - `lambda x: (x[1], x[0])` means that sorting is first done by the second element of the tuple (the score) in ascending order. If scores are equal, sorting is then done by the first element (the name) in ascending order.
+- The sorted list is stored in `students_sorted`.
+
+```python
+    lowestGrade = students_sorted[0][1]
+```
+- Sets `lowestGrade` to the score of the first student in the sorted list. Since the list is sorted by score, this will be the lowest score.
+
+```python
+    secLowestGrade = None
+```
+- Initializes `secLowestGrade` to `None`. This variable will later hold the second lowest score.
+
+```python
+    for student in students_sorted:
+```
+- Starts a `for` loop to iterate over each student in the sorted list.
+
+```python
+        if student[1] > lowestGrade:
+```
+- Checks if the student's score is greater than `lowestGrade`. This helps in identifying the second lowest score.
+
+```python
+            secLowestGrade = student[1]
+            break
+```
+- If the condition is met, assigns the student's score to `secLowestGrade` and breaks out of the loop. This is because the first score greater than the lowest score is the second lowest score.
+
+```python
+    studentNames = [student[0] for student in students_sorted if secLowestGrade == student[1]]
+```
+- Creates a list of names of students whose score matches `secLowestGrade`. This is done using a list comprehension that filters the students based on their score.
+
+```python
+    studentNames.sort()
+```
+- Sorts the list of student names in alphabetical order.
+
+```python
+    for names in studentNames:
+        print(names)
+```
+- Iterates over the sorted list of student names and prints each name.
+
+### Summary
+This script processes student data, identifies the second lowest score, and prints the names of students who have that second lowest score in alphabetical order.
 
 
