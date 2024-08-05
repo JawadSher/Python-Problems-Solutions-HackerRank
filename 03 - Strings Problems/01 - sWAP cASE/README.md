@@ -1,10 +1,12 @@
-# Problem Statement 
-**URL : [sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true)**
+<h1 align='center'>sWAP - cASE</h1>
+
+## Problem Statement 
+**Problem URL : [sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/dd042e28-995f-4e28-9599-fc198ce3d327)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def swap_case(s):
     txt = ""
@@ -21,7 +23,7 @@ if __name__ == '__main__':
     print(result)
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The function `swap_case` takes a string `s` as input and returns a new string where each lowercase letter in `s` is converted to uppercase, and each uppercase letter is converted to lowercase.
 
 #### Implementation
