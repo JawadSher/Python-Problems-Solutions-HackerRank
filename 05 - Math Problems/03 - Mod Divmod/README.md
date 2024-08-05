@@ -1,4 +1,6 @@
-# Problem Statement
+<h1 align='center'>Mod - Divmod</h1>
+
+## Problem Statement
 
 **Problem URL :** [Mod Divmod](https://www.hackerrank.com/challenges/python-mod-divmod/problem?isFullScreen=true)
 
