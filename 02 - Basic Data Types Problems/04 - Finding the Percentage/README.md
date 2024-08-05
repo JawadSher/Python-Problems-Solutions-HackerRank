@@ -1,10 +1,12 @@
-# Problem Statement 
-**URL : [Finding the Percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true)**
+<h1 align='center'>Finding - The - Percentage</h1>
+
+## Problem Statement 
+**Problem URL : [Finding the Percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/ae00c9f1-ae16-4c24-8e70-23ab48e4cea3)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/1bd01b3a-aada-4d46-b925-ae27b1472348)
 
-# Problem Solution
+## Problem Solution
 ```
 if __name__ == '__main__':
     n = int(input())
@@ -21,64 +23,82 @@ if __name__ == '__main__':
         print("{:.2f}".format(average))
 ```
 
-## Code Explanation
-The provided source code is a Python script that calculates the average marks of a student based on the input provided.
+## Problem Solution Explanation
 
-1. **Reading Input :**
-   - It first reads an integer n from input, representing the number of students.
-   - Then it initializes an empty dictionary student_marks to store the marks of each student.
-   - It iterates n times to read the input for each student. For each student:
-       - It reads the name of the student followed by their marks separated by spaces.
-       - It converts the marks from strings to floats and stores them in a list.
-       - It stores the name of the student as a key and their marks as a list in the student_marks dictionary.
+```python
+if __name__ == '__main__':
+```
+- This line checks if the script is being run directly (not imported as a module). If it is run directly, the code block following this line will be executed.
 
-2. **Calculating Average :**
-   - After reading all the input, it reads the name of the student for which the average marks need to be calculated.
-   - If the student's name exists in the student_marks dictionary:
-       - It retrieves the list of marks for the student.
-       - It calculates the average of the marks by summing them up and dividing by the total number of marks.
-       - It prints the average marks with two decimal places.
-    
-- ```if __name__ == '__main__':``` :
-    - This line checks if the script is being run directly as the main program.
-    - If it is, the code block below it will be executed.
+```python
+    n = int(input())
+```
+- Reads an integer input from the user, converts it to an integer using `int()`, and stores it in the variable `n`. This value represents the number of students and their scores to be processed.
 
-- ```n = int(input())``` :
-   - Reads an integer from the standard input (usually the keyboard) and assigns it to the variable `n`.
-   - This integer represents the number of students.
+```python
+    student_marks = {}
+```
+- Initializes an empty dictionary `student_marks` to store student names as keys and their respective scores as values.
 
--   `student_marks = {}` :
-    -   Initializes an empty dictionary named `student_marks` to store the marks of each student.
-   
--  `for _ in range(n):` :
-	- Iterates `n` times to read the input for each student.
-	- The underscore `_` is used as a placeholder variable because the loop doesn't need to use the loop variable.
+```python
+    for _ in range(n):
+```
+- Starts a `for` loop that will iterate `n` times, once for each student.
 
--   `name, *line = input().split()` :
-    -   Reads a line of input, splits it into words, and assigns the first word to the variable `name`.
-    -   The remaining words are collected into a list called `line`.
-    -   This line effectively separates the student's name from their marks in the input.
-    
--   `scores = list(map(float, line))` :
-    -   Converts each mark (which is initially a string) in the list `line` to a float and creates a list of floats called `scores`.
-    -   `map(float, line)` applies the `float` function to each element of `line`.
-    -   `list(...)` converts the result of `map` into a list.
-    
--   `student_marks[name] = scores` :
-    -   Assigns the list of marks `scores` to the dictionary `student_marks` with the student's name `name` as the key.
-    -   This effectively stores the marks of each student in the dictionary.
--   `query_name = input()`
-    -   Reads a line of input, which is assumed to be the name of the student for which the average marks need to be calculated.
-    
--   `if query_name in student_marks:` :
-    -   Checks if the entered `query_name` exists in the `student_marks` dictionary.
-    -   If it does, it means marks are available for the specified student, so the script proceeds to calculate the average.
+```python
+        name, *line = input().split()
+```
+- Reads a line of input, splits it into individual strings, and assigns the first part to `name` and the remaining parts to `line` using the unpacking feature `name, *line`.
+  - `name` will be a string representing the student’s name.
+  - `line` will be a list of strings representing the student's scores.
 
--   `marks = student_marks[query_name]` :
-    -   Retrieves the list of marks for the student specified by `query_name` from the `student_marks` dictionary.
-    
--   `average = sum(marks) / len(marks)` :
-    -   Calculates the average of the marks by summing them up and dividing by the total number of marks.
-    
--   `print("{:.2f}".format(average))` :
-    -   Prints the average marks with two decimal places. The `{:.2f}` format specifier ensures that the floating-point number is displayed with two decimal places.
+```python
+        scores = list(map(float, line))
+```
+- Converts each score in `line` from a string to a floating-point number using `map(float, line)`, then converts the map object to a list and stores it in the variable `scores`.
+
+```python
+        student_marks[name] = scores
+```
+- Adds an entry to the `student_marks` dictionary where `name` is the key and `scores` is the value.
+
+```python
+    query_name = input()
+```
+- Reads a string input from the user, which is the name of the student whose average score will be queried. The input is stored in the variable `query_name`.
+
+```python
+    if query_name in student_marks:
+```
+- Checks if `query_name` exists in the `student_marks` dictionary.
+
+```python
+        marks = student_marks[query_name]
+```
+- Retrieves the list of scores for the student `query_name` from the dictionary and stores it in the variable `marks`.
+
+```python
+        average = sum(marks) / len(marks)
+```
+- Calculates the average score by summing all scores in `marks` with `sum(marks)` and dividing by the number of scores with `len(marks)`.
+
+```python
+        print("{:.2f}".format(average))
+```
+- Prints the average score formatted to two decimal places. The `"{:.2f}".format(average)` formats the `average` to two decimal places as a string.
+
+### Example
+Consider the following input:
+```
+3
+Alice 85.5 90.0 88.0
+Bob 78.0 82.5 80.0
+Charlie 90.0 95.0 92.0
+Bob
+```
+- `n` will be `3`, indicating there are three students.
+- `student_marks` will be `{'Alice': [85.5, 90.0, 88.0], 'Bob': [78.0, 82.5, 80.0], 'Charlie': [90.0, 95.0, 92.0]}`.
+- `query_name` will be `'Bob'`.
+- The average score for Bob will be `(78.0 + 82.5 + 80.0) / 3 = 80.83`.
+
+The output will be `80.83`.
