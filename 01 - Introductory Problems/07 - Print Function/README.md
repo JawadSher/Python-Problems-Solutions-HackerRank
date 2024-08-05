@@ -1,10 +1,12 @@
-# Problem Statement 
-**URL : [Print Function](https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true)**
+<h1 align='center'>Print - Function</h1>
+
+## Problem Statement 
+**Problem URL : [Print Function](https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/142ea07a-3641-4370-86e7-a602184a6ca3)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     n = int(input())
@@ -12,7 +14,7 @@ if __name__ == '__main__':
         print(i, end="")
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The given Python script takes an integer input n and prints the numbers from 1 to n consecutively without any spaces or newlines in between.
 
 ```if __name__ == '__main__':``` : This line ensures that the code block inside it runs only if the script is executed as the main program.
