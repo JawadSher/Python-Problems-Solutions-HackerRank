@@ -1,6 +1,8 @@
-# Problem Statement
+<h1 align='center'>Itertools - Product()</h1>
 
-**URL :** [itertool.product()](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)
+## Problem Statement
+
+**Problem URL :** [itertool.product()](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/dff7be58-ef2a-4f32-a62b-234617d30270)
 ![image](https://github.com/user-attachments/assets/4180a766-9202-4d51-8246-f14c078a5a9f)
@@ -17,7 +19,7 @@ print(" ".join(f"({a}, {b})" for a, b, in certesian))
 
 ```
 
-## Source Code Explanation
+## Problem Solution Explanation
 
 1.  **Import the `product` Function:**
     
