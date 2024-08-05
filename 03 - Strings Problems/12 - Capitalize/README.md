@@ -1,9 +1,11 @@
-# Problem Statement
-**URL** : [Capitalize](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)
+<h1 align='center'>Capitalize</h1>
+
+## Problem Statement
+**Problem URL** : [Capitalize](https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/855c80dd-07d7-41ee-84ff-e255c8ba0fc7)
 
-# Problem Solution
+## Problem Solution
 ```
 #!/bin/python3
 def solve(s):
@@ -32,32 +34,130 @@ if __name__ == '__main__':
 
 ```
 
-## Source Code Explanation
--   **Function Definition:**
-    
-    -   `def solve(s):` defines a function named `solve` that takes a string `s` as input.
-    -   The docstring (triple-quoted string) at the beginning provides a clear description of the function's purpose, arguments, and return value. This is especially helpful for code maintainability and understanding.
--   **Initializing Variables:**
-    
-    -   `result = ""`: Creates an empty string to store the output with the corrected capitalization.
-    -   `capitalization = True`: Initializes a flag `capitalization` to `True` to indicate that the next character should be capitalized (assuming the first character could be the start of a word).
--   **Iterating Through the Input String:**
-    
-    -   `for char in s:` loops through each character in the input string `s`.
--   **Handling Whitespace:**
-    
-    -   `if char == ' ':`: Checks if the current character is a space.
-        -   If so,  `result += char` appends the space to the output string.
-        -   `capitalization = True` resets the `capitalization` flag to `True` in preparation for the next word (potentially starting with the next character).
--   **Capitalizing the First Letter of Each Word:**
-    
-    -   `elif capitalization:` Checks if the `capitalization` flag is still `True` (meaning the previous character was either a space or the beginning of the string).
-        -   If so,  `result += char.upper()` converts the current character to uppercase (capitalizes it) and appends it to the output string.
-        -   `capitalization = False` sets the `capitalization` flag to `False` to indicate that subsequent letters in the same word should be lowercase.
--   **Handling Other Characters:**
-    
-    -   `else:` This block executes if the current character is neither a space nor the first letter of a word (based on the `capitalization` flag).
-        -   `result += char` Simply appends the character (which is assumed to be lowercase already) to the output string.
--   **Returning the Result:**
-    
-    -   `return result` returns the final `result` string, which contains the input string with the corrected capitalization.
+## Problem Solution Explanation
+
+```python
+#!/bin/python3
+```
+- This line is a shebang that indicates the script should be run using the Python interpreter located at `/bin/python3`. It’s used in Unix-like systems to specify the interpreter for executing the script.
+
+```python
+def solve(s):
+```
+- Defines a function named `solve` that takes one argument, `s`, which is a string that will be processed.
+
+```python
+    result = ""
+```
+- Initializes an empty string `result` which will be used to build the final output string.
+
+```python
+    capitalization = True
+```
+- Initializes a boolean variable `capitalization` to `True`. This variable tracks whether the next non-space character should be capitalized.
+
+```python
+    for char in s:
+```
+- Iterates over each character in the string `s`.
+
+```python
+        if char == ' ':
+```
+- Checks if the current character `char` is a space.
+
+```python
+            result += char
+            capitalization = True
+```
+- If the character is a space, it is appended to the `result` string. The `capitalization` variable is set to `True`, indicating that the next non-space character should be capitalized.
+
+```python
+        elif capitalization:
+```
+- Checks if `capitalization` is `True`. This means the current character should be capitalized.
+
+```python
+            result += char.upper()
+            capitalization = False
+```
+- Converts the current character to uppercase and appends it to the `result` string. Sets `capitalization` to `False` to ensure subsequent characters are not capitalized until the next space is encountered.
+
+```python
+        else:
+            result += char
+```
+- If `capitalization` is `False`, appends the current character as is to the `result` string.
+
+```python
+    return result
+```
+- Returns the `result` string, which now contains the processed text with proper capitalization.
+
+```python
+if __name__ == '__main__':
+```
+- Checks if the script is being run directly (not imported as a module). If so, the code block following this line will be executed.
+
+```python
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+```
+- Opens a file for writing using the file path specified by the environment variable `OUTPUT_PATH`. This line assumes that the environment variable `OUTPUT_PATH` is set and contains the path to the output file.
+
+```python
+    s = input()
+```
+- Reads a string input from the user and assigns it to the variable `s`.
+
+```python
+    result = solve(s)
+```
+- Calls the `solve` function with `s` as the argument and stores the returned value in `result`.
+
+```python
+    fptr.write(result + '\n')
+```
+- Writes the `result` string to the file, followed by a newline character.
+
+```python
+    fptr.close()
+```
+- Closes the file after writing.
+
+### Example
+
+Consider the input string:
+```
+this is a test
+```
+
+1. **Initial Input:**
+   - `s = "this is a test"`
+
+2. **Processing:**
+   - `capitalization = True` initially.
+   - Iterating through the string:
+     - `t` (capitalized): `Result = "T"`, `capitalization = False`
+     - `h`: `Result = "Th"`, `capitalization = False`
+     - `i`: `Result = "Thi"`, `capitalization = False`
+     - `s`: `Result = "This"`, `capitalization = False`
+     - Space: `Result = "This "`, `capitalization = True`
+     - `i` (capitalized): `Result = "This I"`, `capitalization = False`
+     - `s`: `Result = "This Is"`, `capitalization = False`
+     - Space: `Result = "This Is "`, `capitalization = True`
+     - `a` (capitalized): `Result = "This Is A"`, `capitalization = False`
+     - Space: `Result = "This Is A "`, `capitalization = True`
+     - `t` (capitalized): `Result = "This Is A T"`, `capitalization = False`
+     - `e`: `Result = "This Is A Te"`, `capitalization = False`
+     - `s`: `Result = "This Is A Tes"`, `capitalization = False`
+     - `t`: `Result = "This Is A Test"`, `capitalization = False`
+
+3. **Output:**
+   - The final output is:
+     ```
+     This Is A Test
+     ```
+
+The `solve` function capitalizes the first letter of each word in the string and leaves the rest of the letters as they are.
+
+
