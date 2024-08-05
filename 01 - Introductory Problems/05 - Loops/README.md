@@ -7,7 +7,7 @@
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d6fa356e-597f-48be-990c-b6f109747af4)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     n = int(input())
