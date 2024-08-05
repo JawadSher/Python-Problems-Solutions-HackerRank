@@ -1,9 +1,11 @@
-# Problem Statement 
-**URL : [Python Tuples](https://www.hackerrank.com/challenges/python-tuples/problem?isFullScreen=true)**
+<h1 align='center'>Tuples</h1>
+
+## Problem Statement 
+**Problem URL : [Python Tuples](https://www.hackerrank.com/challenges/python-tuples/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/cffa0cf8-7ffb-4e46-a070-4a019a59fc2f)
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     n = int(input())
@@ -15,41 +17,47 @@ if __name__ == '__main__':
     print(hash_value)
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 
--   **Entry Point Check**:
-  
-    `if __name__ == '__main__':` 
-   
-    This line ensures that the code inside the block only runs if the script is executed directly. It won't run if the 	
-    script is imported as a module in another script.
-    
--   **Reading the Number of Elements**:
-  
-    `n = int(input())` 
-    
-    -   `input()` reads a line of input from the user.
-    -   `int(input())` converts the input to an integer. This integer `n` represents the number of elements in the tuple.
--   **Reading the Space-Separated Integers**:
+```python
+if __name__ == '__main__':
+```
+- This line checks if the script is being run directly (not imported as a module). If it is run directly, the code block following this line will be executed.
 
-    `integer_list = map(int, input().split())` 
-    
-    -   `input().split()` reads a line of input from the user and splits it into a list of strings using spaces as the delimiter.
-    -   `map(int, input().split())` applies the `int` function to each element of the list, converting each string to an integer. This results in a map object of integers.
--   **Creating the Tuple**:
-    
-    `my_tuple = tuple(integer_list)` 
-    
-    -   `tuple(integer_list)` converts the map object into a tuple. The tuple `my_tuple` now contains the integers provided by the user.
-    
--   **Calculating the Hash Value**:
+```python
+    n = int(input())
+```
+- This line reads an integer from the user input, converts it to an integer using `int()`, and stores it in the variable `n`. This value represents the number of elements that the user will input next.
 
-    `hash_value = hash(my_tuple)` 
-    
-    -   `hash(my_tuple)` computes the hash value of the tuple. The `hash` function returns an integer which is the hash value of the object passed to it.
-    
--   **Printing the Hash Value**:
-    
-    `print(hash_value)` 
-    
-    -   `print(hash_value)` outputs the computed hash value to the console.
+```python
+    integer_list = map(int, input().split())
+```
+- This line reads a line of input from the user, splits it into individual string elements using `split()`, converts each string element to an integer using `map(int, ...)`, and stores the result as an iterable `integer_list`. This iterable contains the integers input by the user.
+
+```python
+    my_tuple = tuple(integer_list)
+```
+- This line converts the `integer_list` iterable into a tuple, which is an immutable sequence type in Python. The resulting `my_tuple` will contain the integers provided by the user.
+
+```python
+    hash_value = hash(my_tuple)
+```
+- This line calculates the hash value of `my_tuple` using the `hash()` function. The `hash()` function returns a unique integer for the contents of the tuple, which is useful for operations like using the tuple as a key in a dictionary.
+
+```python
+    print(hash_value)
+```
+- Finally, this line prints the computed hash value to the console.
+
+### Example
+Consider the following input:
+```
+4
+1 2 3 4
+```
+- `n` will be `4`, indicating the number of integers expected.
+- `integer_list` will be an iterable of integers `[1, 2, 3, 4]`.
+- `my_tuple` will be `(1, 2, 3, 4)`.
+- The `hash()` function will compute a hash value for this tuple.
+
+The output will be the hash value of the tuple `(1, 2, 3, 4)`. The exact hash value may vary between different runs of the program or different Python versions.
