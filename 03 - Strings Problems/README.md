@@ -1,4 +1,4 @@
-# Strings Problems
+<h1 align='center'>STRINGS - PROBLEMS</h1>
 
 Welcome to the Strings Problems repository! This repository contains solutions to problems focused on manipulating and analyzing strings in Python. These problems cover a range of string operations, including formatting, splitting, joining, and more.
 
