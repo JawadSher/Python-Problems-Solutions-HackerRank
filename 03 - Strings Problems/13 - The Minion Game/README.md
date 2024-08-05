@@ -1,11 +1,13 @@
-# Problem Statement
-**URL** : [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true)
+<h1 align='center'>The - Minion - Game</h1>
+
+## Problem Statement
+**Problem URL** : [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/f4d02b1a-4e45-4410-95df-a64df419ed5e)
 ![image](https://github.com/user-attachments/assets/57b33f93-5398-4281-a5c5-ed0c94a1122a)
 ![image](https://github.com/user-attachments/assets/093e0caf-e649-496b-a566-f4c0a99d91db)
 
-# Problem Solution
+## Problem Solution
 ```
 def minion_game(string):
     vowels = "AEIOU"
@@ -31,7 +33,7 @@ if __name__ == '__main__':
     s = input()
     minion_game(s)
 ```
-## Source Code Explanation
+## Problem Solution Explanation
 1.  **Defining the Game Function**:
     
 
