@@ -1,5 +1,8 @@
-# Problem Statement 
-**URL : [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true)**
+<h1 align='center'>Python - If-Else </h1>
+
+## Problem Statement
+
+**Problem URL : [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/f0695e5c-fefa-46c3-af46-4fa07126fdb6)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/44792e82-39cb-48af-a84a-8543898058c1)
@@ -28,7 +31,7 @@ if __name__ == '__main__':
 
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The provided Python script reads an integer input n and prints a message based on the value of n following specific conditions.
 1. **Shebang Line :**
    ```#!/bin/python3```
