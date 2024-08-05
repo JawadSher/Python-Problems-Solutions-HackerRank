@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [String Validators](https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true)**
+<h1 align='center'>String - Validators</h1>
+
+## Problem Statement 
+**Problem URL : [String Validators](https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/7f86c69f-c383-4b90-ade0-f4b5a5d9a821)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/c393b68c-875b-407b-aa89-c6e4f5542ebf)
@@ -7,7 +9,7 @@
 
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     s = input()
@@ -41,127 +43,120 @@ if __name__ == '__main__':
     
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 
-1.  **Read Input:**
-    
-    
-    ```
-    if __name__ == '__main__':
-        s = input()
-	``` 
-    
-    -   This block reads a string input from the user and stores it in the variable `s`.
-2.  **Check for Alphanumeric Characters:**
-    
-    
-    `is_alnum = any(char.isalnum() for char in s)` 
-    
-    -   `char.isalnum()` returns `True` if the character `char` is alphanumeric (a letter or a digit), and `False` otherwise.
-    -   `any(char.isalnum() for char in s)` checks if there is at least one alphanumeric character in the string `s`. It returns `True` if any character in `s` is alphanumeric, otherwise `False`.
-3.  **Check for Alphabetic Characters:**
-    
-    
-    `is_alpha = any(char.isalpha() for char in s)` 
-    
-    -   `char.isalpha()` returns `True` if the character `char` is a letter, and `False` otherwise.
-    -   `any(char.isalpha() for char in s)` checks if there is at least one alphabetic character in the string `s`. It returns `True` if any character in `s` is a letter, otherwise `False`.
-4.  **Check for Digits:**
-    
-    
-    `is_digit = any(char.isdigit() for char in s)` 
-    
-    -   `char.isdigit()` returns `True` if the character `char` is a digit, and `False` otherwise.
-    -   `any(char.isdigit() for char in s)` checks if there is at least one digit in the string `s`. It returns `True` if any character in `s` is a digit, otherwise `False`.
-5.  **Check for Lowercase Characters:**
-    
-    
-    `is_lower = any(char.islower() for char in s)` 
-    
-    -   `char.islower()` returns `True` if the character `char` is a lowercase letter, and `False` otherwise.
-    -   `any(char.islower() for char in s)` checks if there is at least one lowercase character in the string `s`. It returns `True` if any character in `s` is a lowercase letter, otherwise `False`.
-6.  **Check for Uppercase Characters:**
-    
-    
-    `is_upper = any(char.isupper() for char in s)` 
-    
-    -   `char.isupper()` returns `True` if the character `char` is an uppercase letter, and `False` otherwise.
-    -   `any(char.isupper() for char in s)` checks if there is at least one uppercase character in the string `s`. It returns `True` if any character in `s` is an uppercase letter, otherwise `False`.
-7.  **Print Results:**
-    
-    -   For each of the properties checked, print `True` if the property is found in the string `s`, otherwise print `False`.
-   
-    
-    ```
+```python
+if __name__ == '__main__':
+```
+- This line checks if the script is being run directly (not imported as a module). If it is run directly, the code block following this line will be executed.
+
+```python
+    s = input()
+```
+- Reads a string input from the user and stores it in the variable `s`. This string will be used for checking various conditions.
+
+```python
+    is_alnum = any(char.isalnum() for char in s)
+```
+- Uses a generator expression to check if any character in the string `s` is alphanumeric (either a letter or a number). The `any()` function returns `True` if at least one character satisfies the condition, otherwise `False`.
+
+```python
+    is_alpha = any(char.isalpha() for char in s)
+```
+- Uses a generator expression to check if any character in the string `s` is a letter (either uppercase or lowercase). The `any()` function returns `True` if at least one character is a letter, otherwise `False`.
+
+```python
+    is_digit = any(char.isdigit() for char in s)
+```
+- Uses a generator expression to check if any character in the string `s` is a digit (0-9). The `any()` function returns `True` if at least one character is a digit, otherwise `False`.
+
+```python
+    is_lower = any(char.islower() for char in s)
+```
+- Uses a generator expression to check if any character in the string `s` is a lowercase letter. The `any()` function returns `True` if at least one character is lowercase, otherwise `False`.
+
+```python
+    is_upper = any(char.isupper() for char in s)
+```
+- Uses a generator expression to check if any character in the string `s` is an uppercase letter. The `any()` function returns `True` if at least one character is uppercase, otherwise `False`.
+
+```python
     if(is_alnum):
         print("True")
     else:
         print("False")
-    
+```
+- Checks the value of `is_alnum` and prints `"True"` if it is `True`, otherwise prints `"False"`.
+
+```python
     if(is_alpha):
         print("True")
     else:
         print("False")
-    
+```
+- Checks the value of `is_alpha` and prints `"True"` if it is `True`, otherwise prints `"False"`.
+
+```python
     if(is_digit):
         print("True")
     else:
         print("False")
-    
+```
+- Checks the value of `is_digit` and prints `"True"` if it is `True`, otherwise prints `"False"`.
+
+```python
     if(is_lower):
         print("True")
     else:
         print("False")
-    
+```
+- Checks the value of `is_lower` and prints `"True"` if it is `True`, otherwise prints `"False"`.
+
+```python
     if(is_upper):
         print("True")
     else:
         print("False")
-	``` 
-    
+```
+- Checks the value of `is_upper` and prints `"True"` if it is `True`, otherwise prints `"False"`.
 
-### Example Walkthrough
+### Example
 
-Let's go through an example to see how the code works:
+Let’s consider an example input:
 
-**Input:**
+```
+Hello123
+```
 
+- **`s = "Hello123"`**
+  
+- **`is_alnum`**:
+  - Checks if there is any alphanumeric character (which there is: 'H', 'e', 'l', 'o', '1', '2', '3').
+  - Output: `True`
+  
+- **`is_alpha`**:
+  - Checks if there is any letter (which there are: 'H', 'e', 'l', 'l', 'o').
+  - Output: `True`
+  
+- **`is_digit`**:
+  - Checks if there is any digit (which there are: '1', '2', '3').
+  - Output: `True`
+  
+- **`is_lower`**:
+  - Checks if there is any lowercase letter (which there are: 'e', 'l', 'l', 'o').
+  - Output: `True`
+  
+- **`is_upper`**:
+  - Checks if there is any uppercase letter (which there is: 'H').
+  - Output: `True`
 
-`Hello123` 
-
-**Checks:**
-
-1.  `is_alnum = any(char.isalnum() for char in s)`:
-    
-    -   "H", "e", "l", "l", "o", "1", "2", and "3" are alphanumeric.
-    -   `is_alnum` is `True`.
-2.  `is_alpha = any(char.isalpha() for char in s)`:
-    
-    -   "H", "e", "l", "l", and "o" are alphabetic.
-    -   `is_alpha` is `True`.
-3.  `is_digit = any(char.isdigit() for char in s)`:
-    
-    -   "1", "2", and "3" are digits.
-    -   `is_digit` is `True`.
-4.  `is_lower = any(char.islower() for char in s)`:
-    
-    -   "e", "l", "l", and "o" are lowercase.
-    -   `is_lower` is `True`.
-5.  `is_upper = any(char.isupper() for char in s)`:
-    
-    -   "H" is uppercase.
-    -   `is_upper` is `True`.
-
-## Example Output:
-
-
+**Output of the code** will be:
 ```
 True
 True
 True
 True
 True
-``` 
+```
 
-Each of the properties (`alnum`, `alpha`, `digit`, `lower`, `upper`) is present in the input string "Hello123", hence the output for each check is `True`.
 
