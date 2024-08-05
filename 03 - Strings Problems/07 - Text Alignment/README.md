@@ -1,4 +1,6 @@
-# Problem Statement 
+<h1 align='center'>Text - Alignment</h1>
+
+## Problem Statement 
 **URL : [Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/7088c9ab-9067-4fa9-a55d-a3592164a940)
@@ -7,7 +9,7 @@
 
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 #Replace all ______ with rjust, ljust or center. 
 
@@ -35,7 +37,7 @@ for i in range(thickness):
     print(((c*(thickness-i-1)).rjust(thickness)+c+(c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))
 ```
 
-### Code Explanation
+## Problem Solution Explanation
 
 This code generates a pattern using the letter 'H'. The pattern consists of a top cone, top pillars, a middle belt, bottom pillars, and a bottom cone. The alignment is done using the `rjust`, `ljust`, and `center` methods in Python.
 
