@@ -7,7 +7,7 @@
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d3ff1629-f71a-43e2-9a6b-974a2e9cd11b)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def is_leap(year):
     leap = False
