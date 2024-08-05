@@ -1,4 +1,6 @@
-# Problem Statement
+<h1 align='center'>Polar - Coordinates</h1>
+
+## Problem Statement
 
 **Problem URL :** [Polar Coordinates](https://www.hackerrank.com/challenges/polar-coordinates/problem?isFullScreen=true)
 
@@ -6,7 +8,7 @@
 ![image](https://github.com/user-attachments/assets/e7c26aff-0bf7-4fdb-a288-cfcc32d4e52c)
 ![image](https://github.com/user-attachments/assets/2e7d03c1-e7bf-492f-8bb7-1a05d5244918)
 
-### Problem Explanation
+## Problem Explanation
 
 Given a complex number in the form of a string, your task is to:
 1. Convert the complex number from its rectangular form (a + bi) into its polar form.
