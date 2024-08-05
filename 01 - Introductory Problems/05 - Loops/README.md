@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [Loops](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true)**
+<h1 align='center'>Loops</h1>
+
+## Problem Statement 
+**Problem URL : [Loops](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/a132a73f-23c0-4955-b960-765549ae1062)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d6fa356e-597f-48be-990c-b6f109747af4)
@@ -13,7 +15,7 @@ if __name__ == '__main__':
         print(i**2)
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The given Python script takes an integer input n and prints the square of each integer from 0 to n-1.
 
 ```if __name__ == '__main__':``` : This line checks if the script is being run directly as the main program.
