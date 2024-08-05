@@ -8,6 +8,7 @@ Welcome to the **Math Problems** repository! This repository contains solutions 
 | 01 | [Polar Coordinates](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/01%20-%20Polar%20Coordinates) | Converts polar coordinates to Cartesian coordinates.
 | 02 | [Find Angle MBC](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/02%20-%20Find%20Angle%20MBC) | Calculates the angle ∠MBC in a right-angled triangle.
 | 03 | [Mod Divmod](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/03%20-%20Mod%20Divmod) | Uses mod and divmod operations to compute quotient and remainder.
+| 04 | [Power - Mod Power](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/04%20-%20Power%20-%20Mod%20Power) |Compute (𝑎**𝑏) mod 𝑚 to find the remainder of a raised to the power of b, divided by m.
 
 ## Usage
 
