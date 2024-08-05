@@ -1,12 +1,14 @@
-# Problem Statement
+<h1 align='center'>Merge - The - Tools</h1>
 
-**URL** : [Merge The Tools](https://www.hackerrank.com/challenges/merge-the-tools/problem?isFullScreen=true)
+## Problem Statement
+
+**Problem URL** : [Merge The Tools](https://www.hackerrank.com/challenges/merge-the-tools/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/00fab7ea-253d-432c-b731-75fd0e154325)
 ![image](https://github.com/user-attachments/assets/a126614a-544e-409c-b1e2-47e73a534cb8)
 
 
-## Problem Explanation: "Merge the Tools"
+## Problem Explanation
 
 The "Merge the Tools" problem on HackerRank is a string manipulation problem that involves breaking a given string into several substrings and removing duplicate characters from each substring.
 
@@ -71,6 +73,7 @@ AD
     
     -   Collect all processed segments.
     -   Print or return each segment.
+      
 ## Problem Solution 
 
 ```
@@ -89,62 +92,114 @@ if __name__ == '__main__':
     string, k = input(), int(input())
     merge_the_tools(string, k)
 ```
-## Source Code Explanation
-1.  **Function Definition: `merge_the_tools(string, k)`**
-    
-    -   This function takes two parameters:
-        -   `string`: The input string that needs to be divided into segments.
-        -   `k`: The segment length into which the string should be divided.
-2.  **Initialization:**
-    
-    -   `n = len(string)`: Calculates the length of the input string `string`.
-3.  **Segmentation and Processing:**
-    
-    -   `for i in range(0, n, k):`
-        -   This loop iterates through the string in steps of `k`. It starts at index `0` and ends at `n` with a step of `k`, ensuring that each iteration processes a segment of length `k`.
-4.  **Creating the Segment:**
-    
-    -   `segment = string[i : i+k]`: Slices the input string `string` to extract the current segment of length `k` starting from index `i`.
-5.  **Removing Duplicates:**
-    
-    -   `result = ""`: Initializes an empty string `result` to store the processed segment without duplicates.
-    -   `for char in segment:`
-        -   Iterates through each character `char` in the current segment `segment`.
-        -   `if char not in result:`
-            -   Checks if the character `char` is not already present in the `result` string.
-            -   `result += char`: If `char` is not in `result`, adds `char` to `result`.
-6.  **Printing the Result:**
-    
-    -   `print(result)`: Prints the processed segment `result` after removing duplicates.
-7.  **Main Program Execution:**
-    
-    -   `if __name__ == '__main__':`
-        -   This block ensures that the following code is executed only when the script is run directly, not when it is imported as a module.
-    -   `string, k = input(), int(input())`
-        -   Takes user input where:
-            -   `string`: The input string to be segmented and processed.
-            -   `k`: The segment length provided as an integer input.
-    -   `merge_the_tools(string, k)`: Calls the `merge_the_tools` function with `string` and `k` as arguments to perform the segmentation and printing of processed segments.
+## Problem Solution Explanation
+Certainly! Here's a detailed line-by-line explanation of the code with an example:
 
-### Explanation of Functionality
+```python
+def merge_the_tools(string, k):
+```
+- Defines a function named `merge_the_tools` that takes two arguments:
+  - `string`: the input string to be processed.
+  - `k`: the length of each segment to be processed from the input string.
 
--   **Segmentation**: The input string `string` is divided into segments of length `k` using slicing (`string[i : i+k]`).
--   **Duplicate Removal**: Within each segment, duplicates are removed by iterating through each character and appending it to `result` only if it's not already present (`if char not in result`).
--   **Output**: Each processed segment (`result`) is printed immediately after processing.
+```python
+  n = len(string)
+```
+- Calculates the length of the input string `string` and stores it in the variable `n`.
+
+```python
+  for i in range(0, n, k):
+```
+- Iterates over the indices of the string in steps of `k`. This creates segments of length `k` from the string.
+  - `i` starts at `0` and increases by `k` each time, up to `n` (the length of the string).
+
+```python
+    result = ""
+```
+- Initializes an empty string `result` to build the unique characters of the current segment.
+
+```python
+    segment = string[i : i+k]
+```
+- Extracts a substring from `string` starting at index `i` and ending at index `i + k` (not inclusive). This substring is a segment of length `k`.
+
+```python
+    for char in segment:
+```
+- Iterates over each character `char` in the current `segment`.
+
+```python
+      if char not in result:
+```
+- Checks if the current character `char` is not already present in `result`.
+
+```python
+        result += char
+```
+- If `char` is not in `result`, it is appended to `result`. This ensures that each character in the segment appears only once in the `result` string.
+
+```python
+    print(result)
+```
+- Prints the `result` string, which contains unique characters of the current segment.
+
+```python
+if __name__ == '__main__':
+```
+- Checks if the script is being run directly (not imported as a module). If so, the code block following this line will be executed.
+
+```python
+    string, k = input(), int(input())
+```
+- Reads two inputs from the user:
+  - The first input is the string `string`.
+  - The second input is converted to an integer and assigned to `k`.
+
+```python
+    merge_the_tools(string, k)
+```
+- Calls the `merge_the_tools` function with `string` and `k` as arguments to process the string and print the results.
 
 ### Example
 
-If the input is:
-
--   `string = "AABCAAADA"`
--   `k = 3`
-
-The output will be:
+Consider the following input:
 
 ```
-AB
-CA
-AD
-``` 
+string: "AABCAAADA"
+k: 3
+```
 
-This solution effectively divides the input string into segments, removes duplicate characters from each segment while maintaining their order, and prints each processed segment.
+Here’s how the code works step by step:
+
+1. **Initial Inputs:**
+   - `string = "AABCAAADA"`
+   - `k = 3`
+
+2. **Processing:**
+   - **First Segment (`i = 0`):**
+     - `segment = "AAB"`
+     - Unique characters: "AB"
+     - `result = "AB"`
+     - Output: `AB`
+
+   - **Second Segment (`i = 3`):**
+     - `segment = "CAA"`
+     - Unique characters: "CA"
+     - `result = "CA"`
+     - Output: `CA`
+
+   - **Third Segment (`i = 6`):**
+     - `segment = "ADA"`
+     - Unique characters: "AD"
+     - `result = "AD"`
+     - Output: `AD`
+
+3. **Final Output:**
+   - The function prints:
+     ```
+     AB
+     CA
+     AD
+     ```
+
+Each segment of length `k` is processed to remove duplicate characters, and the unique characters of each segment are printed on separate lines.
