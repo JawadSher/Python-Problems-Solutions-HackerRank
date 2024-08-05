@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli/problem?isFullScreen=true)**
+<h1 align='center'>Alphabet - Rangoli</h1>
+
+## Problem Statement 
+**Problem URL : [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/ff6032d1-dc2a-4031-932c-73b83952bc7c)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/8bd52d81-6032-4092-b016-c72414bef3bd)
@@ -9,7 +11,7 @@
 
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def print_rangoli(size):
     import string 
@@ -29,7 +31,7 @@ if __name__ == '__main__':
     print_rangoli(n)
 ```
 
-## Source Code Explanation 
+## Problem Solution Explanation 
 
 1.  **Importing the Alphabet:**
 
