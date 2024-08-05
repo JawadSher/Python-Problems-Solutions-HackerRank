@@ -1,11 +1,13 @@
-# Problem Statement 
-**URL : [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true)**
+<h1 align='center'>String - Split - And - Join</h1>
+
+## Problem Statement 
+**Problem URL : [String Split and Join](https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/56d0319b-6469-45ef-9607-01041b370cc0)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/dfef50ab-ac85-42fb-bc91-994ef669d081)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def split_and_join(line):
     line_list = line.split(" ")
@@ -19,7 +21,7 @@ if __name__ == '__main__':
     
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The function `split_and_join` takes a string `line` as input, splits the string into words based on spaces, and then joins these words back together using hyphens. The result is a single string where the words are separated by hyphens instead of spaces.
 
 #### Implementation
