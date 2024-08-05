@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)**
+<h1 align='center'>Arithmetic - Operators</h1>
+
+## Problem Statement 
+**Problem URL : [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/36882498-abf1-4e47-bb65-875a2f41ec97)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d8c55930-f832-4377-b2d8-d116740f23a6)
@@ -14,7 +16,7 @@ if __name__ == '__main__':
     print(f'{a + b}\n{a-b}\n{a*b}')
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The given Python script performs simple arithmetic operations on two numbers inputted by the user.
 
 ```if __name__ == '__main__':``` : This line checks if the script is being run directly as the main program.
