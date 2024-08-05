@@ -1,6 +1,8 @@
-# Problem Statement
+<h1 align='center'>Itertools - Permutations()</h1>
 
-**URL :** [itertools permutations()](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true)
+## Problem Statement
+
+**Problem URL :** [itertools permutations()](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/ba954d8e-b329-4461-aaa4-1e4d37c973e4)
 ![image](https://github.com/user-attachments/assets/e49f8b2f-8a4d-49d8-a42d-d743808672b2)
@@ -20,7 +22,7 @@ for per in possible_per:
     print(''.join(per))
 ```
 
-## Source Code Explanation
+## Problem Solution Explanation
 
 1.  **Import the `permutations` Function:**
     
