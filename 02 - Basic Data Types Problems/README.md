@@ -1,4 +1,4 @@
-# Basic Data Types Problems
+<h1 align='center'>BASIC - DATA - TYPES - PROBLEMS</h1>
 
 Welcome to the Basic Data Types Problems repository! This repository contains solutions to introductory problems focusing on fundamental data types in Python, such as lists, tuples, and dictionaries. These problems are designed to help you strengthen your understanding and skills with basic data structures and operations.
 
