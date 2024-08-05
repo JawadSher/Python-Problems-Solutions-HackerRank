@@ -1,4 +1,6 @@
-# Problem Statement
+<h1 align='center'>Collections - Counter()</h1>
+
+## Problem Statement
 
 **Problem URL :** [Collections.Counter()](https://www.hackerrank.com/challenges/collections-counter/problem?isFullScreen=true) 
 
