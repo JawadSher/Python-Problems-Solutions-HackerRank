@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat/problem?isFullScreen=true)**
+<h1 align='center'>Designer - Door - Mat</h1>
+
+## Problem Statement 
+**Problem URL : [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/de5b8da2-6bc4-40b1-b4a2-156891514472)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/0420088b-244e-4c1a-81a6-df17dee1e261)
@@ -7,7 +9,7 @@
 
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 N, M = map(int, input().split())
 
@@ -22,7 +24,7 @@ for i in range(N-2, -1, -2):
     
 ```
 
-## Source Code Explanation
+## Problem Solution Explanation
 
 1.  **`N, M = map(int, input().split())`**:
     
