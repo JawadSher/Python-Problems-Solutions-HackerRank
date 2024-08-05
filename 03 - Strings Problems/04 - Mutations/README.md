@@ -1,12 +1,14 @@
-# Problem Statement 
-**URL : [Mutations](https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true)**
+<h1 align='center'>Mutations</h1>
+
+## Problem Statement 
+**Problem URL : [Mutations](https://www.hackerrank.com/challenges/python-mutations/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d10beb10-0dd2-466c-b4fb-2d28dba30d58)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/f7050677-ac26-4b07-9eba-1c8278dfcf2d)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/acfcfc06-5676-4753-ae0d-9e1cb1d7a625)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def mutate_string(string, position, character):
     new_string = string[:position]+character+string[position+1:]
@@ -19,7 +21,7 @@ if __name__ == '__main__':
     print(s_new)
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 Let's break down the code and its functionality step by step.
 #### Function Definition
 
