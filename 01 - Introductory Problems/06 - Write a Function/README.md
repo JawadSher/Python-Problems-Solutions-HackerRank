@@ -1,5 +1,7 @@
-# Problem Statement 
-**URL : [Write a Function](https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true)**
+<h1 align='center'>Write - A - Function</h1>
+
+## Problem Statement 
+**Problem URL : [Write a Function](https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/948fe625-a954-4995-99d8-0e04ad2860c7)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d3ff1629-f71a-43e2-9a6b-974a2e9cd11b)
@@ -22,7 +24,7 @@ def is_leap(year):
     return leap
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The given Python function is_leap determines whether a given year is a leap year or not.
 
 ```leap = False``` : This initializes a boolean variable leap to False. This variable will be used to store whether the year is a leap year (True) or not (False).
