@@ -1,11 +1,13 @@
-# Problem Statement 
-**URL : [Find a String](https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true)**
+<h1 align='center'>Find - A - String</h1>
+
+## Problem Statement 
+**Problem URL : [Find a String](https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/897353ad-4367-44d8-ab02-1122bea3ee41)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/f95f7b63-58de-4bf6-9b03-2398a3170f8c)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 def count_substring(string, sub_string):
     n = len(string)
@@ -26,7 +28,7 @@ if __name__ == '__main__':
     print(count)
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 
 The code defines a function `count_substring` that takes two strings as input:
 
