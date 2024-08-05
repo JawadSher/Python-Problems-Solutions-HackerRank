@@ -1,4 +1,4 @@
-# Python Introductory Problems
+<h1 align='center'>PYTHON - INTRODUCTORY - PROBLEMS</h1>
 
 Welcome to the Python Introductory Problems repository. This repository is dedicated to solving introductory-level problems from HackerRank, aimed at helping you grasp fundamental Python concepts and syntax. Each problem is designed to build a strong foundation in Python programming.
 
