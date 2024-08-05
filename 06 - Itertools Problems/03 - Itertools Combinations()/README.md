@@ -1,6 +1,8 @@
-# Problem Statement
+<h1 align='center'>Itertools Combinations()</h1>
 
-**URL :** [itertools.Combination()](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)
+## Problem Statement
+
+**Problem URL :** [itertools.Combination()](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/49194b53-4079-4b8d-853a-cfd0991b80f6)
 ![image](https://github.com/user-attachments/assets/1a179eb0-7a90-40e1-b481-45224fa082b5)
@@ -25,7 +27,7 @@ for i in range(1, n+1):
         print(''.join(comb))
 ```
 
-## Source Code Explanation
+## Problem Solution Explanation
 
 1.  **Import the `combinations` Function:**
     
