@@ -1,11 +1,13 @@
-# Problem Statement 
-**URL : [Python Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true)**
+<h1 align='center'>Python - Division</h1>
+
+## Problem Statement 
+**Problem URL : [Python Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true)**
 
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d071e79e-d8a4-4764-9ecc-7d7c4f56c528)
 ![image](https://github.com/JawadSher/Python_Problems-HackerRank/assets/158135119/d65d7d83-57ec-4024-8a1a-0f7f49924ddf)
 
 
-# Problem Solution 
+## Problem Solution 
 ```
 if __name__ == '__main__':
     a = int(input())
@@ -13,7 +15,7 @@ if __name__ == '__main__':
     print(f'{a//b}\n{a/b}')
 ```
 
-## Code Explanation
+## Problem Solution Explanation
 The given Python script performs integer division and float division on two numbers inputted by the user.
 
 ```if __name__ == '__main__':``` : This line checks if the script is being run directly as the main program.
