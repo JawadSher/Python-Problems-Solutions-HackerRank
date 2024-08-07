@@ -5,7 +5,7 @@
 ## Repository Content
 <p>
 <img src="https://img.shields.io/github/last-commit/JawadSher/Python-Problems-Solutions-HackerRank" alt="Last Commit" />
-<img src="https://img.shields.io/badge/Total%20Problems-2-blue" alt="Total Problems" /> 
+<img src="https://img.shields.io/badge/Total%20Problems-3-blue" alt="Total Problems" /> 
 </p>
 
 | No | Problem Name                                           | Description                                             | HackerRank                                                                                                 |
