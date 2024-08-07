@@ -1,6 +1,6 @@
 <h1 align='center'>SETS - PROBLEMS</h1>
 
-Welcome to the repository containing Python solutions for HackerRank problems related to sets. This repository is designed to help you practice and master set operations in Python through various problem-solving exercises.
+<p align='center'>Welcome to the repository containing Python solutions for HackerRank problems related to sets. This repository is designed to help you practice and master set operations in Python through various problem-solving exercises.</p>
 
 ## Repository Content
 <p>
