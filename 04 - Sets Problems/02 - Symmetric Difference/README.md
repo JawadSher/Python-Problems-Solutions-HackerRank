@@ -1,8 +1,8 @@
 <h1 align='center'>Symmetric - Difference</h1>
 
-**Problem URL :** [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=true)
 
 ## Problem Statement
+**Problem URL :** [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=true)
 
 ![image](https://github.com/user-attachments/assets/213a18d2-47f2-48f6-b0d0-3836b7105ac7)
 ![image](https://github.com/user-attachments/assets/958dfbc1-f0b2-4fd5-abf8-bdb12da21fd7)
