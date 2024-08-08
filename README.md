@@ -9,7 +9,6 @@
     <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Repo Size">
     <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat&logo=opensource" alt="License">
     <img src="https://img.shields.io/github/stars/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Stars">
-    <img src="https://komarev.com/ghpvc/?username=JawadSher&label=Views&color=blueviolet&style=flat" alt="Views">
     <img src="https://img.shields.io/github/forks/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Forks">
     <img src="https://img.shields.io/badge/Last%20Update-July%20%272024-blue?style=flat&logo=calendar" alt="Last Update">
     <img src="https://img.shields.io/github/issues/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Issues">
