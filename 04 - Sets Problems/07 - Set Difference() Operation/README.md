@@ -4,6 +4,11 @@
 
 **Problem URL :** [Set .Difference() Operation](https://www.hackerrank.com/challenges/py-set-difference-operation/problem?isFullScreen=true)
 
+![image](https://github.com/user-attachments/assets/8856c6bc-d31d-4f4f-a393-5c607ef17890)
+![image](https://github.com/user-attachments/assets/e611136b-04ed-4908-bb24-ffedbb979146)
+![image](https://github.com/user-attachments/assets/45f1aaec-05bb-46ff-8519-5758b2345c3d)
+
+
 ## Problem Solution
 ```py
 student_english = int(input())
