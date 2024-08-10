@@ -3,15 +3,17 @@
 Welcome to the **Math Problems** repository! This repository contains solutions to various mathematical problems implemented in Python. These problems focus on fundamental mathematical concepts and operations, including coordinate conversion, angle calculations, and modular arithmetic.
 
 ## Repository Content
-| No | Problem Name | Description |
-|---|---|---|
-| 01 | [Polar Coordinates](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/01%20-%20Polar%20Coordinates) | Converts polar coordinates to Cartesian coordinates.
-| 02 | [Find Angle MBC](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/02%20-%20Find%20Angle%20MBC) | Calculates the angle ∠MBC in a right-angled triangle.
-| 03 | [Mod Divmod](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/03%20-%20Mod%20Divmod) | Uses mod and divmod operations to compute quotient and remainder.
-| 04 | [Power - Mod Power](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/04%20-%20Power%20-%20Mod%20Power) |Compute (𝑎**𝑏) mod 𝑚 to find the remainder of a raised to the power of b, divided by m.
-| 05 | [Integer Come in All Sizes](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/05%20-%20Integer%20Come%20in%20All%20Sizes) | Computes the sum of large integer powers.|
-| 06 | [Triangle Quest](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/06%20-%20Triangle%20Quest) | Prints a pattern of numbers forming a triangle with increasing repetitions.|
-| 07 | [Triangle Quest 2](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/07%20-%20Triangle%20Quest%202) | Print palindromic numbers in a triangular pattern.| 
+![Problems Badge](https://img.shields.io/badge/problems-7-blue)
+
+| No | Problem Name | Description | Hackerrank |
+|---|---|---|---|
+| 01 | [Polar Coordinates](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/01%20-%20Polar%20Coordinates) | Converts polar coordinates to Cartesian coordinates. | [link](https://www.hackerrank.com/challenges/polar-coordinates?isFullScreen=true)
+| 02 | [Find Angle MBC](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/02%20-%20Find%20Angle%20MBC) | Calculates the angle ∠MBC in a right-angled triangle.| [link](https://www.hackerrank.com/challenges/find-angle?isFullScreen=true)
+| 03 | [Mod Divmod](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems/03%20-%20Mod%20Divmod) | Uses mod and divmod operations to compute quotient and remainder.| [link](https://www.hackerrank.com/challenges/python-mod-divmod?isFullScreen=true)
+| 04 | [Power - Mod Power](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/04%20-%20Power%20-%20Mod%20Power) |Compute (𝑎**𝑏) mod 𝑚 to find the remainder of a raised to the power of b, divided by m.| [link](https://www.hackerrank.com/challenges/python-power-mod-power?isFullScreen=true)
+| 05 | [Integer Come in All Sizes](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/05%20-%20Integer%20Come%20in%20All%20Sizes) | Computes the sum of large integer powers.| [link](https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes?isFullScreen=true)
+| 06 | [Triangle Quest](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/06%20-%20Triangle%20Quest) | Prints a pattern of numbers forming a triangle with increasing repetitions.| [link](https://www.hackerrank.com/challenges/python-quest-1?isFullScreen=true)
+| 07 | [Triangle Quest 2](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/07%20-%20Triangle%20Quest%202) | Print palindromic numbers in a triangular pattern.| [link](https://www.hackerrank.com/challenges/triangle-quest-2?isFullScreen=true)
 
 ## Usage
 
