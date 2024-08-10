@@ -4,7 +4,7 @@
 
 ## Repository Content
 <p>
-<img src="https://img.shields.io/badge/Total%20Problems-4-blue" alt="Total Problems" /> 
+<img src="https://img.shields.io/badge/Total%20Problems-13-blue" alt="Total Problems" /> 
 </p>
 
 | No | Problem Name                                           | Description                                             | HackerRank                                                                                                 |
