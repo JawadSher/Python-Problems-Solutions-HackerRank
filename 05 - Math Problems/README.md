@@ -3,7 +3,7 @@
 Welcome to the **Math Problems** repository! This repository contains solutions to various mathematical problems implemented in Python. These problems focus on fundamental mathematical concepts and operations, including coordinate conversion, angle calculations, and modular arithmetic.
 
 ## Repository Content
-![Problems Badge](https://img.shields.io/badge/problems-7-blue)
+![problems count](https://img.shields.io/badge/problems-7-blue)
 
 | No | Problem Name | Description | Hackerrank |
 |---|---|---|---|
