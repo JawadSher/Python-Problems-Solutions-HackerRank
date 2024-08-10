@@ -11,6 +11,7 @@ Welcome to the **Math Problems** repository! This repository contains solutions 
 | 04 | [Power - Mod Power](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/04%20-%20Power%20-%20Mod%20Power) |Compute (𝑎**𝑏) mod 𝑚 to find the remainder of a raised to the power of b, divided by m.
 | 05 | [Integer Come in All Sizes](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/05%20-%20Integer%20Come%20in%20All%20Sizes) | Computes the sum of large integer powers.|
 | 06 | [Triangle Quest](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/06%20-%20Triangle%20Quest) | Prints a pattern of numbers forming a triangle with increasing repetitions.|
+| 07 | [Triangle Quest 2](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/05%20-%20Math%20Problems/07%20-%20Triangle%20Quest%202) | Print palindromic numbers in a triangular pattern.| 
 
 ## Usage
 
