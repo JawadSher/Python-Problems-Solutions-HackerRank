@@ -2,12 +2,16 @@
 
 Welcome to the Itertools Problems repository! This repository contains solutions to various problems utilizing Python's itertools module. The itertools module provides functions that create iterators for efficient looping. These problems focus on generating permutations, combinations, and Cartesian products using itertools.
 
-## Repository Content
-| No | Problem Name | Description |
-|---|---|---|
-| 01 | [Itertools.Product()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/01%20-%20Itertools%20Product()) | Computes the Cartesian product of iterables.
-| 02 | [Itertools.Permutations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/02%20-%20Itertools%20Permutations()) | Generates all permutations of elements from an iterable.
-| 03 | [Itertools.Combinations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/03%20-%20Itertools%20Combinations()) | Creates all combinations of elements from an iterable.
+
+| #  | Problem                                                                                      | Description                                                    | HackerRank                                                                                 |
+|----|----------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| 01 | [Itertools.Product()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/01%20-%20Itertools%20Product()) | Computes the Cartesian product of multiple iterables.         | [Link](https://www.hackerrank.com/challenges/itertools-product?isFullScreen=true)    |
+| 02 | [Itertools.Permutations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/02%20-%20Itertools%20Permutations()) | Generates all possible permutations of elements in an iterable. | [Link](https://www.hackerrank.com/challenges/itertools-permutations?isFullScreen=true) |
+| 03 | [Itertools.Combinations()](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems/03%20-%20Itertools%20Combinations()) | Produces all possible combinations of elements in an iterable. | [Link](https://www.hackerrank.com/challenges/itertools-combinations?isFullScreen=true) |
+| 04 | [Itertools.Combinations_with_replacement()](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/06%20-%20Itertools%20Problems/04%20-%20itertools.combinations_with_replacement()) | Creates combinations of elements allowing repetitions.        | [Link](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement?isFullScreen=true) |
+| 05 | [Compress the String!](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/06%20-%20Itertools%20Problems/05%20-%20Compress%20the%20String!) | Compresses a string by grouping consecutive identical characters. | [Link](https://www.hackerrank.com/challenges/compress-the-string?isFullScreen=true) |
+| 06 | [Iterables and Iterators](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/06%20-%20Itertools%20Problems/06%20-%20Iterables%20and%20Iterators) | Calculates the probability of a subset of a certain size containing a specific element. | [Link](https://www.hackerrank.com/challenges/iterables-and-iterators?isFullScreen=true) |
+| 07 | [Maximize It!](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/06%20-%20Itertools%20Problems/07%20-%20Maximize%20It!) | Finds the maximum possible value of a function with constraints using iterables. | [Link](https://www.hackerrank.com/challenges/maximize-it?isFullScreen=true) |
 
 ## Usage
 
