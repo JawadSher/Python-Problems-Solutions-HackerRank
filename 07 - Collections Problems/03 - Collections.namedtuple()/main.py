@@ -1,7 +1,10 @@
-nums_records = int(input().strip())
-header = input().split()
+from collections import namedtuple
 
-header_index = header.index("MARKS")
-marks = [int(input().split()[header_index]) for _ in range(nums_records)]
-avg_marks = sum(marks) / nums_records
+nums_records = int(input())
+Student = namedtuple('Student', input().split())
+stdnt_records = [Student(*input().split()) for _ in range(nums_records)]
+stdnt_marks = [student.MARKS for student in stdnt_records]
+total_marks = sum(map(int, stdnt_marks))
+avg_marks = total_marks / nums_records
 print(f'{avg_marks:.2f}')
+
