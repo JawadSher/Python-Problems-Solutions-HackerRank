@@ -10,69 +10,86 @@
 
 ## Problem Solution
 ```py
-nums_records = int(input().strip())
-header = input().split()
+from collections import namedtuple
 
-header_index = header.index("MARKS")
-marks = [int(input().split()[header_index]) for _ in range(nums_records)]
-avg_marks = sum(marks) / nums_records
+nums_records = int(input())
+Student = namedtuple('Student', input().split())
+stdnt_records = [Student(*input().split()) for _ in range(nums_records)]
+stdnt_marks = [student.MARKS for student in stdnt_records]
+total_marks = sum(map(int, stdnt_marks))
+avg_marks = total_marks / nums_records
 print(f'{avg_marks:.2f}')
 ```
 
 ## Problem Solution Explanation
 
-Let's break down this code step by step. This code is used to calculate the average of the "MARKS" column from a set of student records.
+Let's break down this code line by line to understand how it works and how it uses `namedtuple` to process student records and compute the average of their marks.
 
 ```python
-nums_records = int(input().strip())
+from collections import namedtuple
 ```
-- **`input().strip()`**: Reads a line of input from the user and removes any leading or trailing whitespace (like spaces or newlines). This ensures clean input.
-- **`int()`**: Converts the cleaned input (a string) into an integer.
-- **`nums_records`**: Stores the number of student records (or rows) you will process.
+- **Importing `namedtuple`**: This line imports the `namedtuple` function from the `collections` module. `namedtuple` is used to create tuple subclasses with named fields, making it easier to access and manage structured data.
 
 ```python
-header = input().split()
+nums_records = int(input())
 ```
-- **`input()`**: Reads the next line of input, which contains the column headers.
-- **`split()`**: Splits this line into individual strings based on whitespace (spaces). This creates a list where each element corresponds to a column name.
-- **`header`**: Stores this list of column names.
+- **Reading the Number of Records**: 
+  - **`input()`**: Reads a line of input from the user. This should be a single integer value indicating how many student records will follow.
+  - **`int()`**: Converts the input string into an integer.
+  - **`nums_records`**: Stores the number of student records to be processed.
 
 ```python
-header_index = header.index("MARKS")
+Student = namedtuple('Student', input().split())
 ```
-- **`header.index("MARKS")`**: Finds the position (index) of the column name "MARKS" in the `header` list. This tells you where the "MARKS" column is located in the subsequent data lines.
-- **`header_index`**: Stores this index value.
+- **Defining the `Student` Namedtuple**:
+  - **`input().split()`**: Reads a line of input which should be the column headers, then splits this line into a list of strings based on whitespace. For example, if the input is "MARKS CLASS NAME ID", `input().split()` will return `['MARKS', 'CLASS', 'NAME', 'ID']`.
+  - **`namedtuple('Student', ...)`**: Creates a new namedtuple class called `Student` with fields named according to the list of column headers. This allows you to access data using field names like `student.MARKS`, `student.CLASS`, etc.
+  - **`Student`**: This is now a class that can be used to create instances representing student records.
 
 ```python
-marks = [int(input().split()[header_index]) for _ in range(nums_records)]
+stdnt_records = [Student(*input().split()) for _ in range(nums_records)]
 ```
-- **`[int(input().split()[header_index]) for _ in range(nums_records)]`**: This is a list comprehension, which creates a list by iterating over a range of `nums_records` times.
-    - **`for _ in range(nums_records)`**: Repeats the process `nums_records` times (once for each record).
-    - **`input()`**: Reads a line of input for each record.
-    - **`split()`**: Splits the input line into a list of values (columns).
-    - **`[header_index]`**: Accesses the value at the position of the "MARKS" column in this list.
-    - **`int()`**: Converts this value to an integer.
-- **`marks`**: Stores a list of integers, where each integer is the mark for one record.
+- **Creating Instances of `Student`**:
+  - **`for _ in range(nums_records)`**: This creates a loop that iterates `nums_records` times, once for each student record.
+  - **`input().split()`**: Reads a line of input for each student record and splits it into individual components based on whitespace. For example, if the input line is "92 2 Calum 1", `input().split()` will return `['92', '2', 'Calum', '1']`.
+  - **`Student(*input().split())`**: Unpacks this list of values and creates a `Student` instance with these values. The `*` operator is used to unpack the list into separate arguments.
+  - **`[ ... for _ in range(nums_records)]`**: Collects all the `Student` instances into a list called `stdnt_records`.
 
 ```python
-avg_marks = sum(marks) / nums_records
+stdnt_marks = [student.MARKS for student in stdnt_records]
 ```
-- **`sum(marks)`**: Calculates the total sum of all the marks in the `marks` list.
-- **`/ nums_records`**: Divides this total by the number of records to compute the average.
-- **`avg_marks`**: Stores the calculated average of the marks.
+- **Extracting Marks**:
+  - **`[student.MARKS for student in stdnt_records]`**: This is a list comprehension that iterates over each `Student` instance in `stdnt_records` and extracts the `MARKS` field from each.
+  - **`stdnt_marks`**: This list contains all the marks extracted from the student records.
+
+```python
+total_marks = sum(map(int, stdnt_marks))
+```
+- **Calculating Total Marks**:
+  - **`map(int, stdnt_marks)`**: Converts each mark in `stdnt_marks` from a string to an integer.
+  - **`sum(...)`**: Sums up all the integer values to get the total marks.
+  - **`total_marks`**: Stores the sum of all marks.
+
+```python
+avg_marks = total_marks / nums_records
+```
+- **Calculating the Average Marks**:
+  - **`total_marks / nums_records`**: Divides the total marks by the number of records to compute the average.
+  - **`avg_marks`**: Stores the calculated average marks.
 
 ```python
 print(f'{avg_marks:.2f}')
 ```
-- **`f'{avg_marks:.2f}'`**: This is an f-string that formats `avg_marks` to two decimal places. The `:.2f` specifies that the number should be formatted as a floating-point number with two decimal places.
-- **`print()`**: Outputs the formatted average to the console.
+- **Printing the Result**:
+  - **`f'{avg_marks:.2f}'`**: Formats `avg_marks` to two decimal places. The `:.2f` specifies that the number should be displayed with two decimal places.
+  - **`print()`**: Outputs the formatted average marks to the console.
 
 ### Summary
 
-1. **Read the number of records**: The first input tells you how many records (or lines) you will process.
-2. **Read and process the header**: The second input line contains column names, from which you find the index of the "MARKS" column.
-3. **Extract marks**: For each record, you read the line, extract the mark based on the index, and convert it to an integer.
-4. **Calculate the average**: Sum all the marks and divide by the number of records to find the average.
-5. **Print the average**: Display the average, formatted to two decimal places.
+- **Define** a namedtuple with fields from the input.
+- **Create** instances of this namedtuple using data from the input.
+- **Extract** the marks from these instances.
+- **Compute** the average of these marks.
+- **Print** the average rounded to two decimal places.
 
-This approach ensures that you accurately compute and display the average of the marks from the provided data. If you have further questions or need more details, just let me know!
+This code leverages `namedtuple` to simplify handling structured data and makes the code more readable by using named fields instead of relying on index positions. If you have any more questions or need further clarification, feel free to ask!
