@@ -43,6 +43,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 05 | [Math Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/05%20-%20Math%20Problems) |Contains problems that require mathematical computations and algorithms.|
 | 06 | [Itertools Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/06%20-%20Itertools%20Problems) |Focuses on problems that utilize the itertools module for advanced iteration techniques.|
 | 07 | [Collections Problems](https://github.com/JawadSher/Python_Problems-HackerRank/tree/main/07%20-%20Collections%20Problems) |Includes problems that involve Python's collections module, such as namedtuples, deque, and Counter.|
+| 08 | [Date and Time Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/08%20-%20Date%20and%20Time%20Problems) | Repository containing solutions to various date and time problems by using `Calendar` module.|
 
 
 
