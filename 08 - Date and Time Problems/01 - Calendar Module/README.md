@@ -1,4 +1,4 @@
-<h1>Calendar - Module</h1>
+<h1 align='center'>Calendar - Module</h1>
 
 ## Problem Statement
 
