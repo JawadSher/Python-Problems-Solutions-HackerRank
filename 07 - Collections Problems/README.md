@@ -1,6 +1,6 @@
 <h1 align='center'>PYTHON - COLLECTIONS - PROBLEMS</h1>
 
-Welcome to the Collections Problems repository! This repository contains solutions to problems utilizing Python's collections module. The collections module provides alternatives to built-in types that can be more efficient for certain tasks. This repository focuses on problems involving collections.Counter.
+<p align='center'>Welcome to the Collections Problems repository! This repository contains solutions to problems utilizing Python's collections module. The collections module provides alternatives to built-in types that can be more efficient for certain tasks. This repository focuses on problems involving collections.Counter.</p>
 
 ## Repository Content
 ![Total Problems](https://img.shields.io/badge/problems%20count-8-blue)
