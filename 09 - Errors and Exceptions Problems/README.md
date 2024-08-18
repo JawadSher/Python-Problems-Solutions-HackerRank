@@ -4,6 +4,8 @@
 
 
 ## Repository Content
+![Problems Count](https://img.shields.io/badge/problem%20count-2-blue)
+
 | No | Problem Name         | Description                                                   | HackerRank                                           |
 |----|----------------------|---------------------------------------------------------------|-------------------------------------------------------------|
 | 01 | [Exceptions](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/09%20-%20Errors%20and%20Exceptions%20Problems/01%20-%20Exceptions)           | Handling common exceptions like `ZeroDivisionError` and `ValueError` in Python. | [Link](https://www.hackerrank.com/challenges/exceptions/problem)        |
