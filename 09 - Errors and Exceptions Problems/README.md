@@ -1,4 +1,4 @@
-<h1 align='center'>ERRORS AND EXCEPTIONS PROBLEMS</h1>
+<h1 align='center'>ERRORS - AND - EXCEPTIONS - PROBLEMS</h1>
 
 <p align='center'>Welcome to the repository dedicated to "Errors and Exceptions" problems in Python. This collection of problems from HackerRank focuses on enhancing your skills in handling various errors and exceptions that you might encounter in Python programming. The problems cover a range of topics, including basic exception handling, invalid inputs, and regular expressions. Each subfolder in this repository contains solutions to specific problems related to these topics.</p>
 
