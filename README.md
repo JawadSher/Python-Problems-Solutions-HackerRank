@@ -46,6 +46,7 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 08 | [Date and Time Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/08%20-%20Date%20and%20Time%20Problems) | Repository containing solutions to various date and time problems by using `Calendar` module.|
 | 09 | [Errors and Exceptions Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/09%20-%20Errors%20and%20Exceptions%20Problems) | Solutions to problems involving error handling and exceptions in Python.
 | 10 | [Classes Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/10%20-%20Classes%20Problems) | Solutions of Python class-based problems, including class methods, operators, and OOP concepts.
+| 11 | [Built_Ins Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/11%20-%20Built_Ins%20Problems) | Solve challenges using Python's built-in functions to improve coding efficiency like `eval` `input()` `zip` etc. |
 
 
 
