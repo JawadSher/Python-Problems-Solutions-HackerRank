@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-68%20/%20115-blue?style=flat&logo=python&logoColor=green" alt="Total Problems Solved">
+    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-74%20/%20115-blue?style=flat&logo=python&logoColor=green" alt="Total Problems Solved">
     <img src="https://img.shields.io/github/contributors/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Repo Size">
     <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat&logo=opensource" alt="License">
