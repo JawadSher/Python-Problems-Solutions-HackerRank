@@ -47,9 +47,8 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 09 | [Errors and Exceptions Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/09%20-%20Errors%20and%20Exceptions%20Problems) | Solutions to problems involving error handling and exceptions in Python.
 | 10 | [Classes Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/10%20-%20Classes%20Problems) | Solutions of Python class-based problems, including class methods, operators, and OOP concepts.
 | 11 | [Built_Ins Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/11%20-%20Built_Ins%20Problems) | Solve challenges using Python's built-in functions to improve coding efficiency like `eval` `input()` `zip` etc. |
-
-
-
+| 12 | [Python Functional](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/12%20-%20Python%20Functional) | Solutions using functional programming concepts like `map`, `filter`, and `reduce` in Python. |
+| 13 | [Regex and Parsing](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/13%20-%20Regex%20and%20Parsing) | Solutions for problems involving regular expressions and string parsing techniques in Python. |
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
