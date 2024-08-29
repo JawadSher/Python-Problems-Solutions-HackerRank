@@ -1,4 +1,4 @@
-<h1 align='center'>Shape and Reshape</h1>
+<h1 align='center'>Shape - and - Reshape</h1>
 
 ## Problem Statement
 
