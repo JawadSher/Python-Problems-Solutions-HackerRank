@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-74%20/%20115-blue?style=flat&logo=python&logoColor=green" alt="Total Problems Solved">
+    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-115%20/%20115-blue?style=flat&logo=python&logoColor=green" alt="Total Problems Solved">
     <img src="https://img.shields.io/github/contributors/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/JawadSher/Python_Problems-HackerRank?style=flat&logo=github" alt="Repo Size">
     <img src="https://img.shields.io/github/license/JawadSher/Python_Problems-HackerRank?style=flat&logo=opensource" alt="License">
@@ -48,7 +48,12 @@ This repository includes solutions to various Python problems from HackerRank, o
 | 10 | [Classes Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/10%20-%20Classes%20Problems) | Solutions of Python class-based problems, including class methods, operators, and OOP concepts.
 | 11 | [Built_Ins Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/11%20-%20Built_Ins%20Problems) | Solve challenges using Python's built-in functions to improve coding efficiency like `eval` `input()` `zip` etc. |
 | 12 | [Python Functional](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/12%20-%20Python%20Functional) | Solutions using functional programming concepts like `map`, `filter`, and `reduce` in Python. |
-| 13 | [Regex and Parsing](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/13%20-%20Regex%20and%20Parsing) | Solutions for problems involving regular expressions and string parsing techniques in Python. |
+| 13 | [Regex and Parsing](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/13%20-%20Regex%20and%20Parsing) | Solutions for problems involving regular expressions and string parsing techniques in Python. | 
+| 14  | [XML Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/14%20-%20XML%20Problems) | Problems focusing on XML parsing and manipulation using Python libraries.| 
+| 15  | [Closures Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/15%20-%20Closures%20and%20Decorators) | Problems that involve the use of closures and decorators in Python. | 
+| 16  | [NumPy Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/16%20-%20NumPy%20Problems) | Challenges related to the NumPy library, including array operations, linear algebra, and more. |  
+| 17  | [Debugging Problems](https://github.com/JawadSher/Python-Problems-Solutions-HackerRank/tree/main/17%20-%20Debugging) | Problems designed to test and improve debugging skills in Python code.| 
+
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
