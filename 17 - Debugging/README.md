@@ -1,4 +1,4 @@
-<h1 alig='center'>DEBUGGING</h1>
+<h1 align='center'>DEBUGGING - PROBLEMS</h1>
 
 <p align='center'>
     Welcome to the <strong>Python Problems Solutions - HackerRank</strong> repository. This section contains solutions to specific Python problems related to word scoring and default arguments. Each folder presents a unique problem and solution, helping you practice and master Python concepts through hands-on challenges. Explore the problems and improve your skills with practical examples.
